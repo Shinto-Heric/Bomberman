@@ -1,0 +1,62 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &7824734042892031487
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7824734042892031486}
+  - component: {fileID: 7824734042892031485}
+  m_Layer: 0
+  m_Name: Grid
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7824734042892031486
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7824734042892031487}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &7824734042892031485
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7824734042892031487}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c2e5ecc92b2bb4f729d412f775f538db, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  columnCount: 10
+  rowCount: 15
+  emptyCell: {fileID: 1232415983362721077, guid: 6e4b6c00daf2f442e827af3b06535b23,
+    type: 3}
+  destructableCell: {fileID: 5166010926047004182, guid: bf284165b3c994936ae7877cf3cd0de0,
+    type: 3}
+  inDestructableCell: {fileID: 5208399208779565005, guid: bbbfae42082b841b6bf25d53430387a7,
+    type: 3}
+  reservedCell: {fileID: 2773405619582763774, guid: c0ead44174e1d4d1db446b4f01abfbc7,
+    type: 3}
+  emptyCells: {fileID: 5669746567745057320, guid: 2d2a88bbe4d804a43a38ad2264506ecc,
+    type: 3}
+  inDestructableCells: {fileID: 3068947290854636381, guid: 51b0d260c059e44419dcff2af12e6223,
+    type: 3}
+  destructableCells: {fileID: 7323037955299629960, guid: d4ab8516a0feb47418fe9e882d0dfad2,
+    type: 3}
+  destructableCellsCount: 15
