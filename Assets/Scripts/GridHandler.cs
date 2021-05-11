@@ -8,7 +8,6 @@ public class GridHandler : MonoBehaviour
     // Start is called before the first frame update
     public int columnCount;
     public int rowCount;
-    private float cellDimen = 32f;
     public GameObject emptyCell;
     public GameObject destructableCell;
     public GameObject inDestructableCell;
